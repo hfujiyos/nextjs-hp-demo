@@ -3,7 +3,7 @@ import Post from "../components/Post";          //ﾌﾞﾛｸﾞ行ｺﾝﾎﾟ
 import { getAllPostsData } from "../lib/posts"; //ﾌﾞﾛｸﾞAPI取得ﾗｲﾌﾞﾗﾘ
 
 /**
- * Blogｺﾝﾎﾟｰﾈﾝﾄ
+ * Blog一覧ｺﾝﾎﾟｰﾈﾝﾄ
  * @param posts ﾌﾞﾛｸﾞAPI結果ｾｯﾄ（JSON）
  * @description ﾌﾞﾛｸﾞ情報を取得してPostｺﾝﾎﾟｰﾈﾝﾄで全件表示
  */

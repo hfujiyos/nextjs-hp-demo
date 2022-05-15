@@ -45,6 +45,8 @@ flex-direction: column;
 justify-content: center;
 * items-center（ｱﾗｲﾒﾝﾄ方向に対してｾﾝﾀﾘﾝｸﾞ）
 align-items: center;
+* justify-around（ﾌﾚｯｸｽ方向に対して等間隔配置）
+justify-content: space-around;
 
 ### Typography
 * text-gray-600（ﾃｷｽﾄ｜ｸﾞﾚｲ｜濃い目600）
@@ -67,6 +69,8 @@ background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
 ### Borders
 * border-t（ﾎﾞｰﾀﾞｰ｜ﾄｯﾌﾟ）
 border-top-width: 1px;
+* rounded-full（ﾎﾞｰﾀﾞｰ｜要素境界外側の角丸め｜真円9999px）
+border-radius: 9999px;
 
 ## 参考文献
 * [TechAcademy｜CSSで要素の高さを指定する100vhと100%の違い](https://techacademy.jp/magazine/38188)

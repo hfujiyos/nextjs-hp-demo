@@ -52,9 +52,19 @@ TailwindCSS v3.0となりNextJSでの導入方法が依然と変わっている�
 ### ディレクトリ構成
 * components
   * Layout.js
+  * Post.js
+* lib
+  * posts.js
 * pages
   * blog-page.js
   * contact-page.js
+
+### ライブラリ構成
+* node-fetch
+  ｻｰﾊﾞｰｻｲﾄﾞのnode-fetchを利用するためﾗｲﾌﾞﾗﾘｲﾝｽﾄｰﾙ
+  ```
+  $ npm install node-fetch
+  ```
 
 ## 参考文献
 * [tailwindcss｜Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)

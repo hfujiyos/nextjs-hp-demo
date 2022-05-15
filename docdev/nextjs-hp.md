@@ -2,7 +2,7 @@
 * INPUT：Nextjs + Tailwind CSS +  Django REST Framework で学ぶモダンReact開発 
 * OUTPUT：Next.jsの基本機能を実装したWEBアプリを開発
 
-### NextJSプロジェクト作成
+## NextJSプロジェクト作成
 ここではnpmでNextJSプロジェクトを構築する。
 
 * create-next-app
@@ -15,8 +15,8 @@
   $ npm run dev
   ```
 
-### TailwindCSS
-TailwindCSS v3.0となりNextJSでの導入方法が依然と変わっている。
+## Tailwind CSS
+Tailwind CSS v3.0となりNextJSでの導入方法が以前と変わっている。
 
 * TailwindCSSインストール
   ```
@@ -49,6 +49,13 @@ TailwindCSS v3.0となりNextJSでの導入方法が依然と変わっている�
   @tailwind utilities;
   ```
 
+## ライブラリ追加
+* node-fetch
+  ｻｰﾊﾞｰｻｲﾄﾞのnode-fetchを利用するためﾗｲﾌﾞﾗﾘｲﾝｽﾄｰﾙ
+  ```
+  $ npm install node-fetch
+  ```
+
 ### ディレクトリ構成
 * components
   * Layout.js
@@ -56,15 +63,9 @@ TailwindCSS v3.0となりNextJSでの導入方法が依然と変わっている�
 * lib
   * posts.js
 * pages
+  * posts/[id].js
   * blog-page.js
   * contact-page.js
-
-### ライブラリ構成
-* node-fetch
-  ｻｰﾊﾞｰｻｲﾄﾞのnode-fetchを利用するためﾗｲﾌﾞﾗﾘｲﾝｽﾄｰﾙ
-  ```
-  $ npm install node-fetch
-  ```
 
 ## 参考文献
 * [tailwindcss｜Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)

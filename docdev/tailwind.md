@@ -10,8 +10,14 @@
 
 ## Tailwind CSS
 ### Sizing
-* min-h-screen（要素最小高）
+* min-h-screen（画面最小高｜100%）
 min-height: 100vh;
+* w-screen（画面幅｜100%）
+width: 100vw;
+* h-14（要素高さ｜56px）
+height: 3.5rem;	56px
+* w-full（要素幅｜100%）
+width: 100%;
 
 ### Spacing
 * py-0（上下0pxﾊﾟﾃﾞｨﾝｸﾞ）
@@ -21,6 +27,12 @@ padding-bottom: 0px;
 padding-left: 0.5rem;
 padding-right: 0.5rem;
 8px
+* pl-8（左32pxﾊﾟﾃﾞｨﾝｸﾞ）
+padding-left: 2rem;	32px
+* space-x-4（要素間ｽﾍﾟｰｽ）
+--tw-space-x-reverse: 0;
+margin-right: calc(1rem * var(--tw-space-x-reverse));
+margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 
 ### Flexbox
 * flex（ﾌﾚｯｸｽ使用）
@@ -33,6 +45,28 @@ flex-direction: column;
 justify-content: center;
 * items-center（ｱﾗｲﾒﾝﾄ方向に対してｾﾝﾀﾘﾝｸﾞ）
 align-items: center;
+
+### Typography
+* text-gray-600（ﾃｷｽﾄ｜ｸﾞﾚｲ｜濃い目600）
+--tw-text-opacity: 1;
+color: rgba(75, 85, 99, var(--tw-text-opacity));
+* text-sm（ﾃｷｽﾄ｜ｽﾓｰﾙ｜14px）
+font-size: 0.875rem;
+line-height: 1.25rem;	14px
+* font-mono（ﾌｫﾝﾄ｜ﾓﾉ）
+font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+* text-4xl（ﾃｷｽﾄ｜36px）
+font-size: 2.25rem;
+line-height: 2.5rem;	36px
+
+### Backgrounds
+* bg-gray-800（ﾊﾞｯｸｸﾞﾗﾝﾄﾞ｜ｸﾞﾚｲ｜濃い目800）
+--tw-bg-opacity: 1;
+background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+
+### Borders
+* border-t（ﾎﾞｰﾀﾞｰ｜ﾄｯﾌﾟ）
+border-top-width: 1px;
 
 ## 参考文献
 * [TechAcademy｜CSSで要素の高さを指定する100vhと100%の違い](https://techacademy.jp/magazine/38188)
